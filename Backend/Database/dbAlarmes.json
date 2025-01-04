@@ -1,0 +1,10 @@
+{
+    "26/11/2024": {
+      "00:48:10": {
+        "ID": 0,
+        "Nome": "Motor #1",
+        "Descricao": "Corrente acima do normal",
+        "Severidade": "Alta"
+      }
+    }
+}

@@ -1,0 +1,12 @@
+.saibamais-title-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    height: 100vh;   
+}
+
+.saibamais-title {
+    margin-top: 2%;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+}

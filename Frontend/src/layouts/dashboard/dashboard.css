@@ -1,0 +1,947 @@
+
+
+.SP_Label{
+
+    font-size: large;
+    text-shadow: 1%;
+    margin-left: 38%;
+    font-weight: bold;
+   align-content: center;
+   color: #333;
+   
+}
+
+
+
+.AI {
+  margin-top: 80%;
+  margin-left: 70%;
+  position: absolute;
+  background: 
+    linear-gradient(#ffffff 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, #9900ff, #3549fb) border-box;
+  color: #313149;
+  
+  border: 4px solid transparent;
+  border-radius: 15px;
+  display: inline-block;
+  width: 75px; 
+  height: 50px; 
+
+}
+
+@media only screen and (max-width: 768px) {
+  .AI {
+    margin-top: 100%;
+    margin-left: 70%;
+    position: absolute;
+    background: 
+      linear-gradient(#ffffff 0 0) padding-box, /*this is your grey background*/
+      linear-gradient(to right, #9900ff, #3549fb) border-box;
+    color: #313149;
+    
+    border: 4px solid transparent;
+    border-radius: 15px;
+    display: inline-block;
+    width: 75px; 
+    height: 50px; 
+  
+  }
+}
+
+.sparkle {
+  position: block;
+  width: 40px;
+  height: auto;
+}
+
+.IA {
+  position: absolute;
+  margin-top: 5%;
+  font-style: bold;
+}
+
+.controlBox {
+
+    height: 600px;
+    transition: opacity 0.5s ease;
+
+}
+
+.sp-box {
+    position: block;
+    font-size: medium;
+    margin-left: 25%;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: inset  0 0 5px rgb(223, 223, 223);
+    border-radius: 8px; 
+    width: 50%;
+    text-align: center;
+    margin-top: 1%;
+    
+
+}
+.sp_perc{
+  position: absolute;
+  margin-top: -30%;
+  margin-left: 75%;
+}
+.controlSP {
+    position: absolute;
+    background-color: #e0e0e0; 
+    width: 20%;
+    height: 50%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 
+        inset 8px 8px 16px #bebebe, 
+        inset -8px -8px 16px #ffffff; 
+    box-sizing: border-box;
+}
+.sp_slider {
+    -webkit-appearance: none;
+    appearance: none; 
+    width: 200%;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 16px;
+    transform: rotateZ(270deg);
+    margin-top: 110%;
+    margin-left: -50%;
+    
+ 
+}
+
+.sp_slider::-webkit-slider-runnable-track {
+    height: 15px;
+    background: #ccc;
+    border-radius: 16px;
+
+  }
+  
+.sp_slider::-moz-range-track {
+    height: 15px;
+    background: #ccc;
+    border-radius: 16px;
+
+  }
+  
+.sp_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none; 
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #f50;
+    box-shadow: -407px 0 0 400px #f50;
+    
+  }
+  
+.sp_slider::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #f50;
+    box-shadow: -407px 0 0 400px rgba(255, 85, 0, 0.568),
+        inset 8px 8px 16px #bebebe, 
+        inset -8px -8px 16px #ffffff; 
+  }
+  
+
+
+.sp_slider_visitante {
+  -webkit-appearance: none;
+  appearance: none; 
+  width: 200%;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 16px;
+  transform: rotateZ(270deg);
+  margin-top: 110%;
+  margin-left: -50%;
+
+}
+
+.sp_slider_visitante::-webkit-slider-runnable-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+
+}
+
+.sp_slider_visitante::-moz-range-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+
+}
+
+.sp_slider_visitante::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none; 
+  height: 15px;
+  width: 15px;
+
+  background-color: #f50;
+  border-radius: 50%;
+  border: 2px solid #f50;
+  box-shadow: -407px 0 0 400px #f50;
+  
+}
+
+.sp_slider_visitante::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #f50;
+  box-shadow: -407px 0 0 400px rgba(255, 85, 0, 0.568),
+      inset 8px 8px 16px #bebebe, 
+      inset -8px -8px 16px #ffffff; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.controlPV {
+  position: absolute;
+  margin-left: 40%;
+  background-color: #e0e0e0; 
+  width: 20%;
+  height: 50%;
+  border-radius: 10px;
+  box-shadow: 
+      inset 8px 8px 16px #bebebe, 
+      inset -8px -8px 16px #ffffff; 
+  box-sizing: border-box;
+}
+
+.PV_Label{
+
+  font-size: large;
+  text-shadow: 1%;
+  margin-left: 38%;
+  font-weight: bold;
+ align-content: center;
+ color: #333;
+ 
+}
+.pv-box {
+  position: block;
+  font-size: medium;
+  margin-left: 25%;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: inset  0 0 5px rgb(223, 223, 223);
+  border-radius: 8px; 
+  width: 50%;
+  text-align: center;
+  margin-top: 1%;
+}
+.pv_perc{
+  margin-top: -30%;
+  margin-left: 75%;
+}
+.pv_slider {
+  -webkit-appearance: none;
+  appearance: none; 
+  width: 200%;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 16px;
+  transform: rotateZ(270deg);
+  margin-top: 110%;
+  margin-left: -50%;
+
+}
+
+.pv_slider::-webkit-slider-runnable-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+
+}
+
+.pv_slider::-moz-range-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+
+}
+
+.pv_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none; 
+  height: 15px;
+  width: 15px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  border: 2px solid rgb(0, 255, 0);
+  box-shadow: -407px 0 0 400px rgb(0, 255, 0);
+  
+}
+
+.pv_slider::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #f50;
+  box-shadow: -407px 0 0 400px rgba(255, 85, 0, 0.568),
+      inset 8px 8px 16px #bebebe, 
+      inset -8px -8px 16px #ffffff; 
+}
+
+
+.controlMV {
+  position: absolute;
+  margin-left: 70%;
+  background-color: #e0e0e0; 
+  width: 20%;
+  height: 50%;
+  border-radius: 10px;
+  box-shadow: 
+      inset 8px 8px 16px #bebebe, 
+      inset -8px -8px 16px #ffffff; 
+  box-sizing: border-box;
+}
+
+.MV_Label{
+
+  font-size: large;
+  text-shadow: 1%;
+  margin-left: 38%;
+  font-weight: bold;
+ align-content: center;
+ color: #333;
+ 
+}
+.mv-box {
+  position: block;
+  font-size: medium;
+  margin-left: 25%;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: inset  0 0 5px rgb(223, 223, 223);
+  border-radius: 8px; 
+  width: 50%;
+  text-align: center;
+  margin-top: 1%;
+}
+.mv_perc{
+  margin-top: -30%;
+  margin-left: 75%;
+}
+.mv_slider {
+  -webkit-appearance: none;
+  appearance: none; 
+  width: 200%;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 16px;
+  transform: rotateZ(270deg);
+  margin-top: 110%;
+  margin-left: -50%;
+  
+
+}
+
+.mv_slider::-webkit-slider-runnable-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+
+}
+
+.mv_slider::-moz-range-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+
+}
+
+.mv_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none; 
+  height: 15px;
+  width: 15px;
+  background-color: rgb(0, 0, 255);
+  border-radius: 50%;
+  border: 2px solid rgb(0, 0, 255);
+  box-shadow: -407px 0 0 400px rgb(0, 0, 255);
+  
+}
+
+.mv_slider::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #f50;
+  box-shadow: -407px 0 0 400px rgba(255, 85, 0, 0.568),
+      inset 8px 8px 16px #bebebe, 
+      inset -8px -8px 16px #ffffff; 
+}
+
+.KP {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 75%;
+  background-color: #e0e0e0; 
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+  box-shadow: 
+      inset 8px 8px 16px #bebebe, 
+      inset -8px -8px 16px #ffffff; 
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 768px) {
+  .KP {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 75%;
+    background-color: #e0e0e0; 
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+    margin-top: 100%;
+    box-shadow: 
+        inset 8px 8px 16px #bebebe, 
+        inset -8px -8px 16px #ffffff; 
+    box-sizing: border-box;
+  }
+}
+.kp-input {
+  position: absolute;
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  background: #ffffff;
+  transition: all 0.3s ease;
+  width: 55%;
+  font-size: 12px;
+  margin-left: 40%;
+  margin-top: -35%;
+}
+
+.kp-input:focus {
+  border-color: #a1a1a1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.KP_Label {
+  font-size: large;
+  text-shadow: 1%;
+  margin-left: 10%;
+  margin-top: 15%;
+  font-weight: bold;
+ align-content: center;
+ color: #333; 
+}
+
+.ti-input {
+  position: absolute;
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  background: #ffffff;
+  transition: all 0.3s ease;
+  width: 55%;
+  font-size: 12px;
+  margin-left: 40%;
+  margin-top: -35%;
+}
+
+.ti-input:focus {
+  border-color: #a1a1a1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.td-input {
+  position: absolute;
+  padding: 10px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  background: #ffffff;
+  transition: all 0.3s ease;
+  width: 55%;
+  font-size: 12px;
+  margin-left: 40%;
+  margin-top: -35%;
+
+}
+
+.td-input:focus {
+  border-color: #a1a1a1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+
+@media only screen and (orientation: landscape) {
+  .PlayButton {
+    position: 'absolute';
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+    margin-top: -150vh;
+    margin-left: 90vw;
+    cursor: 'pointer';
+    font-size: '24px';
+    position: 'absolute';
+    };
+    
+  }
+
+
+
+
+
+
+
+
+
+
+.PlayButton {
+  position: 'absolute';
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  margin-top: -50vh;
+  top: 20%;
+  margin-left: 79vw;
+  cursor: 'pointer';
+  font-size: '24px';
+
+  height: 24px;
+};
+
+
+.OEE_label {}
+  
+@media only screen and (max-width: 768px)  {
+  .PlayButton {
+    position: 'absolute';
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+    margin-top: -50vh;
+    margin-left: 79vw;
+    cursor: 'pointer';
+    font-size: '24px';
+    position: 'absolute';
+    height: 24px;
+    };
+}
+.OEE_label {
+  font-weight: bold;
+  margin-left: 5%;
+  margin-top: -20px;
+  top: -10px;
+  padding: 2%;
+  background-color: white;
+}
+
+
+
+.retangulo-arredondado {
+  position: absolute;
+  border-radius: 10px;
+  margin-left: 40px;
+    width: 80%;               /* Largura do retângulo */
+    height: 55%;              /* Altura do retângulo */
+    border: 3px solid rgba(0, 0, 0, 0.589);    /* Borda preta de 3px */
+    background-color: transparent; /* Fundo transparente */
+    color: black;               /* Cor do texto */
+    display: flex;              /* Flexbox para centralizar o texto */    /* Alinha o texto no centro horizontal */
+    font-size: 18px;            /* Tamanho da fonte */
+  
+}
+
+.disp {
+  position: block;
+  margin-top: 4vh;
+  margin-left: -10%;
+
+}
+.dispBox {
+  position: absolute;
+  margin-top: -8%;
+  margin-left: 16vh;
+  width: 8vh;                /* Adjust the width of the box */
+  padding: 5px;               /* Adds padding around the text */
+  background: #e0e5ec;         /* Soft background color */
+  border-radius: 20px;         /* Rounded corners */
+  box-shadow: 
+    8px 8px 15px rgba(0, 0, 0, 0.1),    /* Shadow on the bottom-right (light) */
+    -8px -8px 15px rgba(255, 255, 255, 0.7);  /* Highlight on the top-left (light) */
+  
+  font-family: 'Arial', sans-serif; /* Font style for text */
+  color: #333;                  /* Text color */
+  text-align: center;           /* Text aligned in the center */
+}
+
+
+@media only screen and (max-width: 1000px) and (orientation: landscape)  {
+  .dispBox {
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 16vw;
+    width: 8vw;                /* Adjust the width of the box */
+    padding: 5px;               /* Adds padding around the text */
+    background: #e0e5ec;         /* Soft background color */
+    border-radius: 20px;         /* Rounded corners */
+    box-shadow: 
+      8px 8px 15px rgba(0, 0, 0, 0.1),    /* Shadow on the bottom-right (light) */
+      -8px -8px 15px rgba(255, 255, 255, 0.7);  /* Highlight on the top-left (light) */
+    
+    font-family: 'Arial', sans-serif; /* Font style for text */
+    color: #333;                  /* Text color */
+    text-align: center;           /* Text aligned in the center */
+  }
+  
+}
+
+
+
+.perf {
+  position: inherit;
+  margin-top: 13vh;
+  margin-left: 3vh;
+}
+.perfBox {
+  position: relative;
+  margin-top: -4vh;
+  margin-left: 16vh;
+  width: 8vh;                /* Adjust the width of the box */
+  padding: 5px;               /* Adds padding around the text */
+  background: #e0e5ec;         /* Soft background color */
+  border-radius: 20px;         /* Rounded corners */
+  box-shadow: 
+    8px 8px 15px rgba(0, 0, 0, 0.1),    /* Shadow on the bottom-right (light) */
+    -8px -8px 15px rgba(255, 255, 255, 0.7);  /* Highlight on the top-left (light) */
+  
+  font-family: 'Arial', sans-serif; /* Font style for text */
+  color: #333;                  /* Text color */
+  text-align: center;           /* Text aligned in the center */
+}
+
+@media only screen and (max-width: 1000px) and (orientation: landscape)  {
+  .perfBox {
+    position: relative;
+    margin-top: -4vw;
+    margin-left: 16vw;
+    width: 8vw;                /* Adjust the width of the box */
+    padding: 5px;               /* Adds padding around the text */
+    background: #e0e5ec;         /* Soft background color */
+    border-radius: 20px;         /* Rounded corners */
+    box-shadow: 
+      8px 8px 15px rgba(0, 0, 0, 0.1),    /* Shadow on the bottom-right (light) */
+      -8px -8px 15px rgba(255, 255, 255, 0.7);  /* Highlight on the top-left (light) */
+    
+    font-family: 'Arial', sans-serif; /* Font style for text */
+    color: #333;                  /* Text color */
+    text-align: center;           /* Text aligned in the center */
+  }
+}
+
+
+
+.qual {
+  position: inherit;
+  margin-top: 23vh;
+  margin-left: 3vh;
+}
+.qualBox {
+  position: relative;
+  margin-top: -4vh;
+  margin-left: 16vh;
+  width: 8vh;                /* Adjust the width of the box */
+  padding: 5px;               /* Adds padding around the text */
+  background: #e0e5ec;         /* Soft background color */
+  border-radius: 20px;         /* Rounded corners */
+  box-shadow: 
+    8px 8px 15px rgba(0, 0, 0, 0.1),    /* Shadow on the bottom-right (light) */
+    -8px -8px 15px rgba(255, 255, 255, 0.7);  /* Highlight on the top-left (light) */
+  
+  font-family: 'Arial', sans-serif; /* Font style for text */
+  color: #333;                  /* Text color */
+  text-align: center;           /* Text aligned in the center */
+}
+
+@media only screen and (max-width: 1000px) and (orientation: landscape)  {
+  .qualBox {
+    position: relative;
+    margin-top: -4vw;
+    margin-left: 16vw;
+    width: 8vw;                /* Adjust the width of the box */
+    padding: 5px;               /* Adds padding around the text */
+    background: #e0e5ec;         /* Soft background color */
+    border-radius: 20px;         /* Rounded corners */
+    box-shadow: 
+      8px 8px 15px rgba(0, 0, 0, 0.1),    /* Shadow on the bottom-right (light) */
+      -8px -8px 15px rgba(255, 255, 255, 0.7);  /* Highlight on the top-left (light) */
+    
+    font-family: 'Arial', sans-serif; /* Font style for text */
+    color: #333;                  /* Text color */
+    text-align: center;           /* Text aligned in the center */
+  }
+
+}
+
+
+
+
+
+.OEE {
+  font-weight: bold;
+  position: inherit;
+  margin-top: 33vh;
+  margin-left: 3vh;
+}
+
+.OEEBox {
+  position: relative;
+  margin-top: -4vh;
+  margin-left: 16vh;
+  width: 8vh;                /* Adjust the width of the box */
+  padding: 5px;               /* Adds padding around the text */
+  background: #b0f8c0;         /* Soft background color */
+  border-radius: 20px;         /* Rounded corners */
+  box-shadow: 
+    8px 8px 15px rgba(0, 0, 0, 0.1),    /* Shadow on the bottom-right (light) */
+    -8px -8px 15px rgba(255, 255, 255, 0.7);  /* Highlight on the top-left (light) */
+  
+  font-family: 'Arial', sans-serif; /* Font style for text */
+  color: #333;                  /* Text color */
+  text-align: center;           /* Text aligned in the center */
+}
+.x1 {
+  position: absolute;
+  margin-top: 4.5vh;
+  margin-left: 5vh;
+}
+.x2 {
+  position: absolute;
+  margin-top: 4.5vh;
+  margin-left: 19.2vh;
+}
+.equal_symbol {
+  position: absolute;
+  margin-top: -5vh;
+  margin-left: 19.2vh;
+}
+
+.button_liga {
+  margin-top: 50vh;
+  margin-left: 30vh;
+  background-color: #4CAF50; /* Green color */
+  border: none; /* Remove default border */
+  color: white; /* Text color */
+  width: 80px; /* Width of the circle */
+  height: 80px; /* Height of the circle */
+  border-radius: 50%; /* Make the button circular */
+  text-align: center; /* Center the text */
+  line-height: 80px; /* Vertically center the text */
+  font-size: 20px; /* Text size */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 5px #666; /* Shadow for the raised effect */
+  transition: all 0.3s ease; /* Smooth transition for effects */
+}
+
+.button_liga:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.button_liga:active {
+  box-shadow: 0 2px #666; /* Shadow for pressed effect */
+  transform: translateY(4px); /* Button looks like it’s pressed down */
+}
+.liga_label {
+  display: inline-block;
+  margin-left: 35vh;
+}
+.desliga_label {
+  display: inline-block;
+  margin-left: 3vh;
+}
+.button-container {
+  text-align: center; /* Optional, centers the buttons within the container */
+}
+
+
+
+
+.button_desliga {
+  display: inline-block;
+  margin-left: 10px; 
+  background-color: #af4c4c; /* Green color */
+  border: none; /* Remove default border */
+  color: white; /* Text color */
+  width: 80px; /* Width of the circle */
+  height: 80px; /* Height of the circle */
+  border-radius: 50%; /* Make the button circular */
+  text-align: center; /* Center the text */
+  line-height: 80px; /* Vertically center the text */
+  font-size: 20px; /* Text size */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 5px #666; /* Shadow for the raised effect */
+  transition: all 0.3s ease; /* Smooth transition for effects */
+}
+
+.button_desliga:hover {
+  background-color: #a04545; /* Darker green on hover */
+}
+
+.button_desliga:active {
+  box-shadow: 0 2px #666; /* Shadow for pressed effect */
+  transform: translateY(4px); /* Button looks like it’s pressed down */
+}
+@media only screen and (max-width: 768px) {
+  .button_liga {
+    margin-top: 50vh;
+    margin-left: 10vh;
+    background-color: #4CAF50; /* Green color */
+    border: none; /* Remove default border */
+    color: white; /* Text color */
+    width: 80px; /* Width of the circle */
+    height: 80px; /* Height of the circle */
+    border-radius: 50%; /* Make the button circular */
+    text-align: center; /* Center the text */
+    line-height: 80px; /* Vertically center the text */
+    font-size: 20px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 5px #666; /* Shadow for the raised effect */
+    transition: all 0.3s ease; /* Smooth transition for effects */
+  }
+  
+  .button_liga:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .button_liga:active {
+    box-shadow: 0 2px #666; /* Shadow for pressed effect */
+    transform: translateY(4px); /* Button looks like it’s pressed down */
+  }
+  .liga_label {
+    display: inline-block;
+    margin-left: 45%;
+  }
+  .desliga_label {
+    display: inline-block;
+    margin-left: 3vh;
+  }
+  .button-container {
+    text-align: center; /* Optional, centers the buttons within the container */
+  }
+  
+  
+  
+  
+  .button_desliga {
+    display: inline-block;
+    margin-left: 10px; 
+    background-color: #af4c4c; /* Green color */
+    border: none; /* Remove default border */
+    color: white; /* Text color */
+    width: 80px; /* Width of the circle */
+    height: 80px; /* Height of the circle */
+    border-radius: 50%; /* Make the button circular */
+    text-align: center; /* Center the text */
+    line-height: 80px; /* Vertically center the text */
+    font-size: 20px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 5px #666; /* Shadow for the raised effect */
+    transition: all 0.3s ease; /* Smooth transition for effects */
+  }
+  
+  .button_desliga:hover {
+    background-color: #a04545; /* Darker green on hover */
+  }
+  
+  .button_desliga:active {
+    box-shadow: 0 2px #666; /* Shadow for pressed effect */
+    transform: translateY(4px); /* Button looks like it’s pressed down */
+  }
+}
+@media only screen and (max-width: 400px) {
+  .PlayButton {
+    position: 'absolute';
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+    margin-top: -140%;
+    margin-left: 75vw;
+    cursor: 'pointer';
+    font-size: '24px';
+    height: 24px;
+    };
+}
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+  .PlayButton {
+    position: 'absolute';
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+    margin-top: -110vh;
+    margin-left: 90vw;
+    cursor: 'pointer';
+    font-size: '24px';
+    position: 'absolute';
+    };
+    
+  }
